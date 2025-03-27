@@ -1,0 +1,41 @@
+13. git fetch origin
+From https://github.com/Passerati12/SI_2025_lab1_233196
+ * [new branch]      2-find-all-completed-tasks -> origin/2-find-all-completed-tasks
+ * [new branch]      5-filter-tasks-by-category -> origin/5-filter-tasks-by-category
+ * [new branch]      7-count-tasks-per-category -> origin/7-count-tasks-per-category
+
+ZA PRV METOD
+14. git checkout -b 2-find-all-completed-tasks origin/2-find-all-completed-tasks
+15. (dodavanje na soodvetna funkcija vo kodot)
+    git add SI2025Lab1Main.java
+16. git commit -m "Implement Find all completed tasks"
+17. git push origin 2-find-all-completed-tasks
+18. pull request od master na 2-find-all-completed-tasks
+
+ZA VTOR METOD
+14. git checkout -b 5-filter-tasks-by-category origin/5-filter-tasks-by-category
+15. (dodavanje na soodvetna funkcija vo kodot)
+    git add SI2025Lab1Main.java
+16. git commit -m "Add filter tasks method"
+17. git push origin 5-filter-tasks-by-category
+18. pull request od master na 5-filter-tasks-by-category
+
+ZA TRET METOD
+14. git checkout -b 7-count-tasks-per-category origin/7-count-tasks-per-category
+15. (dodavanje na soodvetna funkcija vo kodot)
+    git add SI2025Lab1Main.java
+16. git commit -m "Add count tasks method"
+17. git push origin 7-count-tasks-per-category
+18. pull request od master na 7-count-tasks-per-category
+
+20. Merge pull request na 5-filter-tasks-by-category i 7-count-tasks-per-category
+22. git checkout master
+    git merge 2-find-all-completed-tasks
+23. git push origin master
+	(konflikt)
+    git pull origin master --rebase
+    git pull origin master
+25. git log --oneline --graph --all > logs.txt
+    git add .
+    git commit -m "Final commit"
+26. git push origin master

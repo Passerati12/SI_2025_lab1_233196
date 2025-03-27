@@ -1,0 +1,14 @@
+* 812f51f Implement Find all completed tasks
+*   79f14c3 Merge pull request #12 from Passerati12/7-count-tasks-per-category
+|\  
+| * c1ef4c5 Add count tasks method
+* |   b85e1b5 Merge pull request #11 from Passerati12/5-filter-tasks-by-category
+|\ \  
+| |/  
+|/|   
+| * 7c28e14 Add filter tasks method
+|/  
+| * ed20325 Implement Find all completed tasks
+|/  
+* 3d3b0a6 Add starter code
+* 455dc70 Initial commit
